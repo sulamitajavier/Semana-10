@@ -1,0 +1,222 @@
+
+
+
+
+/*fondo textura*/
+body{
+  background-image: url(http://oficinaburman.com/wp-content/uploads/2013/11/papel-textura.jpg); }
+ 
+
+/* estilos de texto */
+
+
+
+
+h2 {
+    text-align:right;
+    color:black;
+   font-family: 'Avenir', cursive;
+  
+    font-size: 1em;
+
+}
+
+h5 {
+    text-align:center;
+    color:black;
+   font-family: 'Avenir', cursive;
+    margin: 2%;
+    margin-top: 5%;
+    font-size: 1.5em;
+
+}
+
+
+h3 {
+    text-align:center;
+    color:black;
+   font-family: 'Avenir', cursive;
+    margin: 2%;
+    font-size: 1em;
+
+}
+
+h4 {
+    text-align:left;
+    color:black;
+   font-family: 'Avenir', cursive;
+    margin: 2%;
+    font-size: 1em;
+
+}
+
+h6 {
+    text-align:center;
+    color:white;
+    background-color: #F3746F; 
+   font-family: 'Avenir', cursive;
+    font-size: 1.5em;
+    margin-top: 14%;
+    padding: 0.5%;
+
+}
+
+
+
+
+
+
+a :hover {
+ text-decoration:underline;
+ color: #F3746F;
+ cursor: pointer;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.5em;
+    font-family: 'Avenir', sans-serif;
+}
+
+body{
+  background-color: ;
+}
+
+
+/* contenedor general*/
+
+.wrap {
+    width: 100%;
+    height:100em;
+    margin-top: -1%;
+  
+    
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .wrap{
+    max-width: 70%;
+  
+  }
+}
+
+
+/* logo */
+
+.logo {
+  position: absolute;
+  width: 12%;
+  margin-top: -4.5%;
+
+}
+
+
+
+/* contenedores formulario */
+
+.uno {
+
+  width: 40%;
+  margin-left: 40%;
+  margin-top: -19%;
+}
+
+.dos {
+
+  width: 40%;
+  margin-left: 40%;
+  
+}
+
+
+
+/*imagen*/
+.i1 {
+
+  float: right;
+  margin-right: 16%;
+  width: 40%;
+  height: 20em;
+
+  display: inline-block;
+  margin-top: 5%;
+   margin-bottom: 8%;
+
+}
+
+/*imagen */
+.i2 {
+
+  float: left;
+  margin-left: 3.5%;
+  width: 40%;
+  height: 20em;
+
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 8%;
+
+}
+
+
+
+
+
+/*formulario */
+
+
+form {
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+.cuadro {
+  width: 40%;
+  background-color: #F3746F;
+  margin-left: 40%;
+  margin-top: 8%;
+  padding: 2%;
+}
+
+.form-group img {
+  width: 40%;
+  margin-left: -45%;
+  margin-top: -30%;
+}
+
+.form-group input{
+  
+  margin-left: 20%;
+  margin-top: -2%;
+  
+}
+
+.l {
+  margin-left: 67%;
+  margin-top: -4%;
+   background-color: #F3746F;
+   border: 2px #F3746F;
+   width: 10%;
+   padding: 0.5%;
+   position: absolute;
+   border-radius: 3%;
+}
+
+.file-control-file {
+  border: 1px #F3746F;
+}
+
+#myform label.error {
+        color: black;
+        font-size: 11px;
+        font-family: Helvetica, sans-serif;
+        text-transform: lowercase;
+        position: relative;
+        margin-left: 1%;
+      }
+
+
+
